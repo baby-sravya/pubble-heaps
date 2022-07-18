@@ -1,0 +1,12 @@
+no_heaps = int(input("Enter no of pubble heaps"))
+heaps = no_heaps
+if(no_heaps % 2 == 0):
+  while(no_heaps > 0):
+      print(heaps)
+          heaps = heaps + 2
+              no_heaps = no_heaps - 1
+              else:
+                while(no_heaps > 0):
+                    print(heaps)
+                        heaps = heaps + 2
+                            no_heaps = no_heaps - 1
